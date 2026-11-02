@@ -2,8 +2,10 @@
   "name": "vo-hinh-hoc-duong",
   "version": "1.0.0",
   "private": true,
-  "engines": {
-    "node": ">=20"
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@google/genai": "^2.32.0",
